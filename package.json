@@ -1,0 +1,80 @@
+{
+  "name": "uber-ui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@cantonjs/react-scroll-view": "^0.4.2",
+    "@chakra-ui/css-reset": "^2.0.10",
+    "@chakra-ui/react": "^1.6.10",
+    "@coreui/react-chartjs": "^2.1.0",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.10.5",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "@progress/kendo-licensing": "^1.2.2",
+    "@progress/kendo-react-notification": "^5.8.0",
+    "@reach/combobox": "^0.16.5",
+    "@react-google-maps/api": "^2.7.0",
+    "@react-keycloak/web": "^3.4.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.27.2",
+    "cdbreact": "^1.5.3",
+    "chart.js": "^3.5.1",
+    "chartjs-adapter-moment": "^1.0.0",
+    "downshift": "^6.1.12",
+    "express": "^4.18.2",
+    "framer-motion": "^4.1.17",
+    "keycloak-js": "^19.0.1",
+    "material-ui-search-bar": "^1.0.0",
+    "mdb-react-ui-kit": "^4.2.0",
+    "react": "^17.0.2",
+    "react-alice-carousel": "^2.5.1",
+    "react-awesome-button": "^6.5.1",
+    "react-chartjs-2": "^3.0.4",
+    "react-dom": "^17.0.2",
+    "react-hot-toast": "^2.4.0",
+    "react-html-parser": "^2.0.2",
+    "react-icons": "^4.2.0",
+    "react-loading": "^2.0.3",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3",
+    "react-snippets": "^1.0.2",
+    "react-spinners": "^0.13.6",
+    "react-toastify": "^8.0.2",
+    "react-use-websocket": "^3.0.0",
+    "semantic-ui-react": "^2.1.3",
+    "sockjs": "^0.3.24",
+    "styled-components": "^5.3.1",
+    "use-places-autocomplete": "^1.11.0",
+    "web-vitals": "^1.0.1"
+  },
+  "homepage": "",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:8085/,https://geolocation-db.com/json/,https://maps.googleapis.com,http://ipwho.is/"
+}
